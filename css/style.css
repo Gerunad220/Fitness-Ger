@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #159957; 
+    background: -webkit-linear-gradient(to right, hsla(210, 76%, 34%, 0.504), hsla(150, 76%, 34%, 0.503)), url(../Imagenes/Fondo\ diapositivas.jpg);
+    background: linear-gradient(to right, hsla(210, 76%, 34%, 0.505), hsla(150, 76%, 34%, 0.505)), url(../Imagenes/Fondo\ diapositivas.jpg);  
+    font-family: 'Times New Roman', Times, serif;    
+  /* background-color: #34e7ee; */
+}
+
+.titulo {
+    color: #dfe4f3;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: 1s;
+}
+
+.titulo:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: hsla(218, 84%, 51%, 0.434);
+    position: relative;
+    border-bottom: 3px solid rgba(91, 243, 230, 0.99); 
+    
+}
+
+header .textos-header{
+    width: 80%;
+    float: right;
+    text-align: center;
+    position: absolute;
+    right: 10%;
+    top: 20%; 
+}
+
+header > img{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    height: 70px;
+}
+.textos-header h1{
+    font-size: 35px;
+    color:#fff;  
+}
+
+.textos-header h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: 300;
+    color:#0cc7ab;
+}
+
+
+button.container-button{   
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background-color: aquamarine;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: rgb(50, 56, 230);  
+    font-size: 10px;
+}
+
+/* INICIO */
+
+#inicio .contenedor{
+    padding: 20px 0 30px 0; 
+    background-color: hsla(126, 5%, 38%, 0.329);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;   
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    width: 40%;  
+}
+
+.menu button{
+    background-color: rgb(100, 172, 200);
+    border-radius: 10px;
+    margin: 5px;
+    height: 3 0px;
+    font-size: 18px;
+    color: #3407bc;
+    cursor: pointer;
+}
+
+
+div.video-op video{
+    width: 80%;
+    position: relative;
+    left: 7%;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+
+/* RUTINAS */
+
+#rutinas .contenedor{
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 6%, 32%, 0.655);
+    border-radius: 20px;
+    margin-top: 10px;  
+}
+
+.Galeria{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding: 10px;
+   justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center; 
+    width: 80%;
+}
+
+.card .textos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    text-shadow: 0 0 5px #0363f4,
+    0 0 25px #0363f4,
+    0 0 50px #0363f4,
+    0 0 100px #0363f4;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* ALIMENTACION */
+
+#alimentacion .contenedor{
+    margin-top: 10px;
+    padding: 20px 0 30px 0; 
+    /* background-color: hsla(22, 87%, 49%, 0.329); */
+    border-radius: 20px; 
+}
+
+.fuentes{
+    width: 100%;
+    padding: 10px;  
+}
+.proteinas{
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.516);      
+    border-radius: 20px;
+}
+.card-2{
+    border-radius: 10px;
+    min-height: 270px;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    left: 18%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center; 
+    width: 70%;   
+}
+
+.carbos{
+    width: 100%; 
+    background-color: hsla(0, 0%, 0%, 0.516);
+    margin-top: 10px;
+    padding-top: 10px; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grasas{
+   
+    background-color: hsla(0, 0%, 0%, 0.516);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.imagenes-grasas{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.card-3{
+    
+    border-radius: 5px;
+    min-height: 300px;
+    font-weight: bold;
+    padding: 5px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center; 
+    width: 80%;   
+}
+
+.card-4{
+    border-radius: 5px;
+    min-height: 300px;
+    font-weight: bold;
+    padding: 5px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center; 
+    width: 60%;   
+}
+
+.fuentes h3{
+    font-size: 20px;
+    color: #f3be90;      
+}
+
+div.fuentes p{
+    color: white;
+    padding:20px 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* SUPLEMENTOS */
+
+#suplementos .contenedor{
+    margin-top: 10px;
+    padding: 20px 0 30px 0; 
+    background-color: hsla(140, 3%, 22%, 0.329);
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.suplementos{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-port{
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imagen-port > img{
+    width: 50%;
+}
+
+.suplementos h3{   
+    color: #38c1f8;
+    font-size: 30px; 
+   
+}
+
+/* TIENDA */
+
+#tienda .contenedor{
+    margin-top: 10px;
+    padding: 20px 0 30px 0; 
+    background-color: hsla(0, 2%, 49%, 0.289);
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.mercancia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mercancia img{
+    width: 65%;
+}
+
+.mercancia h3{
+    color: #34e7ee;  
+    font-size: 30px; 
+    text-align: center;
+}
+
+.equipos{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pesas{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.indumentaria{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    /* background: hsla(0, 51%, 63%, 0.671); */
+    padding: 30px 0 30px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-footer{
+    background: hsla(0, 0%, 6%, 0.503);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;  
+}
+.redes-img{
+    display: flex;
+    flex-direction: row; 
+}
+
+
+.redes{
+   text-align: center;
+    padding: 20px 20px 0 0;
+    
+}
+
+.formulario{
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px 10px 0 0; 
+}
+
+.titulo-final{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+ @media (min-width: 480px){
+   
+    /* HEADER */
+    header{
+        height: 120px;
+    }
+    header > img{
+        height: 90px;
+    }
+    button.container-button{
+        width: 25%;
+        font-size: 15px;
+        right: 2%;
+    }
+    .textos-header h1{
+        font-size: 40px;
+    }
+    
+    .textos-header h2{
+        font-size: 30px;
+    }
+
+    /* INICIO */
+    .menu button{
+        background-color: rgb(100, 172, 200);
+        border-radius: 10px;
+        margin: 5px;
+        height: 3 0px;
+        font-size: 25px;
+        font-weight: 500;
+        color: #3407bc;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 30%;
+        width: 40%; 
+    }
+
+    /* Rutinas */
+    .card{
+        width: 40%;
+    }
+    .card .textos{
+        font-size: 2em;
+    }
+    div.fuentes p{
+        font-size: 20px;
+    }
+    
+    /* SUPLEMENTOS */
+    .imagen-port > img{
+        width: 60%;
+    }
+    
+    /* TIENDA */
+    .mercancia img{
+        width: 70%;
+    }  
+ }
+
+ @media (min-width: 768px){
+    
+    .titulo{
+        font-size: 50px;
+    }
+    /* HEADER */
+    header{
+        height: 140px;
+    }
+    header > img{
+        height: 100px;
+    }
+    button.container-button{
+        width: 20%;
+        font-size: 20px;
+        right: 2%;
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+
+    .textos-header h1{
+        font-size: 50px;
+    }
+    
+    .textos-header h2{
+        font-size: 40px;
+    }
+    .card{
+        width: 30%;
+    }
+
+    /* INICIO */
+    #inicio .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .menu{
+        position: relative;
+        top: 20%;
+        left: 25%;
+        width: 70%;
+    }
+    div.video-op video{
+        width: 90%;
+        position: relative;
+        left: 5%;
+        margin-top: 10px;
+        border-radius: 25px;
+    }
+
+     /* ALIMENTACION */
+     #alimentacion .contenedor{
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+   
+    .card-2{
+        width: 50%;
+    }
+    .card-3{
+        width: 60%;
+    }
+    .card-4{
+        margin-top: 10px;
+        width: 40%;
+    }
+    .fuentes h3{
+        font-size: 35px;
+    }
+
+    /* SUPLEMENTOS */
+
+    #suplementos .contenedor{
+        width: 100%;
+        
+    }
+    .suplementos{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .imagen-port > img{
+        width: 80%;
+    }
+
+    /* TIENDA */
+  
+    .mercancia{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .mercancia img{
+        width: 75%;
+    }
+
+ }
+
+
+ @media (min-width: 1024px){
+  
+    .titulo{
+        font-size: 60px;
+    }
+    /* HEADER */
+    header{
+        height: 160px;
+    }
+    header > img{
+        height: 120px;
+    }
+    button.container-button{
+         width: 18%;
+         font-size: 25px;
+         right: 2%;
+         font-weight: 400;
+         font-family: 'Times New Roman', Times, serif;
+     }
+
+     .textos-header h1{
+        font-size: 60px;
+    }
+    
+    .textos-header h2{
+        font-size: 50px;
+    }
+
+    /* INICIO */
+    #inicio .contenedor{
+        width: 80%;
+        left: 10%;
+    }
+    div.video-op video{
+        width: 80%;
+        position: relative;
+        left: 5%;
+        margin-top: 10px;
+        border-radius: 25px;
+    }
+
+    /* RUTINAS */
+    .Galeria{
+        width: 100%;
+    }
+    .card{
+        width: 25%;
+        
+    }
+    .card .textos{
+        font-size: 2em;
+    }
+
+    /* ALIMENTACION */
+    #alimentacion .contenedor{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    .proteinas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       height: 340px;
+        position: relative;
+        left: 10%;
+       align-items: center;
+    }
+    .card-2{
+        width: 90%;
+    }
+
+    .carbos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 300px;
+        position: relative;
+        right: 10%;
+        gap: 15px;
+    }
+    .grasas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        left: 10%;
+    }
+    div.fuentes p{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* SUPLEMENTOS */
+    #suplementos .contenedor{
+        position: relative;
+       left: 10%;
+        width: 80%;
+    }
+    .suplementos{
+        position: relative;
+        left: 10%;
+        width: 80%;
+        
+    }
+
+    /* TIENDA */
+
+    #tienda .contenedor{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+    .mercancia{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+    .mercancia img{
+        width: 80%;
+    }
+ }
+
+
